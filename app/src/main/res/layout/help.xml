@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#F6F4F4"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#F6F4F4"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="Mapa de Rutas de Ciudad Victoria"
+                android:textAlignment="center"
+                android:textColor="#333333"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="20dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A) Para que la aplicación funcione correctamente debe otorgar todos los permisos."
+                android:textColor="#333333"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B) Para colocar un destino debe dejar presionado un momento en el lugar que quiera marcar como destino."
+                android:textColor="#333333"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C) Si se pierde y quiere que la app lo redirija a su ubicación actual, presione el botón ubicado en la parte superior derecha."
+                android:textColor="#333333"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D) Si desea cambiar el tipo de vista de mapa, puede ir a Ajuster/Ajustes de mapa, y seleccionar el que le parezca más cómodo."
+                android:textColor="#333333"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E) La app le permite poder visualizar las rutas antes de que ponga un destino, y al poner su marcador el spinner desaparecerá."
+                android:textColor="#333333"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F) Ligado de la E) si desea limpiar el mapa y/o volver a ver cualquier ruta, vaya a Ajustes/Limpiar mapa para que reestablezca todo."
+                android:textColor="#333333"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

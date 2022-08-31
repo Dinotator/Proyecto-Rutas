@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings"
+        android:title="Ajustes"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/settingsMap"
+                android:title="Ajustes de mapa"
+                app:showAsAction="never">
+                <menu>
+                    <item
+                        android:id="@+id/normal_map"
+                        android:title="Mapa modo normal"
+                        app:showAsAction="never" />
+                    <item
+                        android:id="@+id/hybrid_map"
+                        android:title="Mapa modo híbrido"
+                        app:showAsAction="never" />
+                    <item
+                        android:id="@+id/satellite_map"
+                        android:title="Mapa modo satelital"
+                        app:showAsAction="never" />
+                    <item
+                        android:id="@+id/terrain_map"
+                        android:title="Mapa modo terreno"
+                        app:showAsAction="never" />
+                </menu>
+
+            </item>
+
+            <item
+                android:id="@+id/delete"
+                android:title="Limpiar mapa"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/help"
+                android:title="Ayuda"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/about"
+                android:title="Acerca de"
+                app:showAsAction="never" />
+
+
+        </menu>
+    </item>
+
+
+
+</menu>
